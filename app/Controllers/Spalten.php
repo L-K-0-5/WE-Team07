@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Spalten extends BaseController
 {
     public function index(): string
     {
-        return view('startseite');
+        return view('spalten');
     }
 }
