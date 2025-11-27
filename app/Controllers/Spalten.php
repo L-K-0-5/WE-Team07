@@ -4,8 +4,10 @@ namespace App\Controllers;
 
 class Spalten extends BaseController
 {
-    public function index(): string
+    public function index()
     {
-        return view('spalten');
+        echo view('templates/header');
+        echo view('spalten');
+        echo view('templates/footer');
     }
 }

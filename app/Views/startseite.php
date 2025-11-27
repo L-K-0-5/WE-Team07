@@ -15,41 +15,6 @@
 
     <body>
 
-        <!-- Navbar Top -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <table>
-                            <tr>
-                                <td>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="task"><img width = "250px" src="img/WE-Logo.svg"></a>
-                                    </li>
-                                </td>
-                                <td>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="task">Task</a>
-                                    </li>
-                                </td>
-                                <td>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="#">Boards</a>
-                                    </li>
-                                </td>
-                                <td>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="spalten">Spalten</a>
-                                    </li>
-                                </td>
-                            </tr>
-                        </table>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Navbar Top -->
-
         <p></p>
 
         <!-- Card -->
@@ -64,15 +29,6 @@
             </div>
         </div>
         <!-- Card -->
-
-        <!-- Navbar Bottom -->
-        <nav class="navbar fixed-bottom">
-            <div class="container-fluid">
-                <span class="left text-light">@Web-Entwicklung 2025</span>
-                <span class="right text-light">Impressum Datenschutz Kontakt</span>
-            </div>
-        </nav>
-        <!-- Navbar Bottom -->
 
     </body>
 
