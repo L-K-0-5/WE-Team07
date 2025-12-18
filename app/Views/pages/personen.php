@@ -13,16 +13,11 @@
 
 </head>
 
-
-
-
-
-
-
     <body>
-    <h1>Benutzerliste</h1>
 
-    <?php if (!empty($personen) && is_array($personen)): ?>
+
+    <div class="px-5">
+        <h1>Personen</h1>
         <table class="table table-responsive table-striped table-bordered">
             <thead>
             <tr>
@@ -30,7 +25,6 @@
                 <th>Vorname</th>
                 <th>Nachname</th>
                 <th>E-Mail</th>
-                <th>Passwort (Hash)</th>
             </tr>
             </thead>
             <tbody>
@@ -40,15 +34,11 @@
                     <td><?= esc($personen['vorname']) ?></td>
                     <td><?= esc($personen['nachname']) ?></td>
                     <td><?= esc($personen['email']) ?></td>
-                    <td><?= esc($personen['passwort']) ?></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>
         </table>
-    <?php else: ?>
-        <p>Keine Benutzer gefunden.</p>
-    <?php endif; ?>
-
+    </div>
 
 
 
