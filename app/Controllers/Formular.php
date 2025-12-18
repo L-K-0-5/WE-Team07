@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 class Formular extends BaseController
 {
-    public function index()
+    public function getIndex()
     {
         echo view('templates/header');
         echo view('formular');

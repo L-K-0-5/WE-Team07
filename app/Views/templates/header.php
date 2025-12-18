@@ -10,19 +10,28 @@
                                     <a class="nav-link" href="task"><img width = "150px" src="img/WE-Logo.svg"></a>
                                 </li>
                             </td>
+
                             <td>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="task">Task</a>
+                                    <a class="nav-link text-light" href=<?= base_url('task')?> >Task</a>
                                 </li>
                             </td>
+
                             <td>
                                 <li class="nav-item">
-                                    <a class="nav-link text-light" href="#">Boards</a>
+                                    <a class="nav-link text-light" href="">Boards</a>
                                 </li>
                             </td>
+
                             <td>
                                 <li class="nav-item">
                                     <a class="nav-link text-light" href="spalten">Spalten</a>
+                                </li>
+                            </td>
+
+                            <td>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="personen">Personen</a>
                                 </li>
                             </td>
                         </tr>

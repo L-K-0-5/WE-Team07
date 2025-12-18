@@ -8,7 +8,7 @@
         <title>Web-Entwicklung-2025</title>
 
         <link rel="stylesheet" type="text/css" href="Style.css">
-        <link href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     </head>
@@ -26,6 +26,7 @@
                 <div class="card-body">
                     <a class="btn btn-outline-dark" href="formular" role="button">Erstellen</a>
                     <p></p>
+                    <div class="table-responsive">
                     <table class="table table-striped table-bordered table-hover">
                         <tr>
                             <th>ID</th>
@@ -58,6 +59,7 @@
                             </td>
                         </tr>
                     </table>
+                    </div>
                 </div>
             </div>
         </div>
